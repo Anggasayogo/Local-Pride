@@ -5468,16 +5468,6 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-mobx-state-tree@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-5.0.2.tgz#62c891eb34cf1cd07d758a933307ef5bce83721c"
-  integrity sha512-hQ2Ewbf2hwB4BNAq0ysYMXywbXQ4bHMpAJRnquzKtUBY1OclZTMBg1Dc2gkZNWfU9PrJ03s2tHK5X5c8wtHAHA==
-
-mobx@^6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.3.2.tgz#125590961f702a572c139ab69392bea416d2e51b"
-  integrity sha512-xGPM9dIE1qkK9Nrhevp0gzpsmELKU4MFUJRORW/jqxVFIHHWIoQrjDjL8vkwoJYY3C2CeVJqgvl38hgKTalTWg==
-
 moo@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.1.tgz#7aae7f384b9b09f620b6abf6f74ebbcd1b65dbc4"
@@ -5833,13 +5823,10 @@ os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
-osmicsx@^0.6.10:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/osmicsx/-/osmicsx-0.6.10.tgz#2a45d6e4fe93fd66d46c7ed328c1ae9e7224ffd6"
-  integrity sha512-Zm32K+UeppSV4PUgiykSWI3rSq1EFPdTX4hzhWobs761bKh6t4ZDsiYGGKmS+dCa2gx0tDpbOYXTLD9zil6wNg==
-  dependencies:
-    mobx "^6.3.2"
-    mobx-state-tree "^5.0.2"
+osmicsx@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/osmicsx/-/osmicsx-0.5.1.tgz#453ed404cf5398b951b89a1e7d394c654056aff2"
+  integrity sha512-wHxk0giy6jjJ9kgUYgTWShOlU/hSJoggLEB6ZYFMfzUXNK2ZHKf2KgHdixmGpmUgI2KgkUs1LlTpa+o2gOpjEQ==
 
 p-each-series@^2.1.0:
   version "2.2.0"

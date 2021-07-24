@@ -1,25 +1,17 @@
 export default {
-  colors: {
-    primary: "#f9bc15",
-    "soft-secondary": "rgba(53, 73, 94, --osmi-opacity)"
-  },
-  spacing: {
-    "30": 120
-  },
-  border: {
-    width: {
-      30: 120
-    },
-    radius: {
-      "super-xl": 120
-    }
-  },
-  font: {
-    family: {
-      "font-regular": "OpenSans-Regular"
-    },
-    size: {
-      "xxl": 40
-    }
-  }
+  // Width
+  "w-150": { width: 150 },
+
+  // Height
+  "h-150": { height: 150 },
+
+  // Margin
+  "-mt-35": { marginTop: -35 },
+
+  // font family
+  "font-regular": { fontFamily: "Inter-Regular" },
+  "font-bold": { fontFamily: "Inter-Bold" },
+  "font-semibold": { fontFamily: "Inter-SemiBold" },
+  "font-medium": { fontFamily: "Inter-Medium" },
+  "font-italic": { fontFamily: "Inter-Thin" },
 }

@@ -16,15 +16,9 @@ const LaunchScreen = props => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle='light-content' backgroundColor={apply('gray-900')} />
-
+      <StatusBar barStyle='dark-content' backgroundColor={apply('white')} />
       <Image source={Images.appLogo} style={styles.appLogo} />
-      <Text style={styles.title}>Welcome to Osmi Kit</Text>
-      <Text style={styles.desc}>This probably isn't what your app is going to look like. Unless your designer handed you this screen and, in that case, congrats! You're ready to ship. For everyone else, this is where you'll see a live preview of your fully functioning app using Osmi Kit.</Text>
-
-      <Button style={styles.btnExplore} onPress={_navigateExplore}>
-        <Text style={styles.btnExploreLabel}>Explore</Text>
-      </Button>
+      <Text style={styles.title}>Local Pride</Text>
     </SafeAreaView>
   )
 }

@@ -12,7 +12,7 @@ const AppNavigation = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="LaunchScreen">
         <Stack.Screen name="LaunchScreen" component={LaunchScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="MainApp" component={BottomNavigator} />
+        <Stack.Screen name="MainApp" component={BottomNavigator} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )

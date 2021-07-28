@@ -9,6 +9,7 @@ import ProfileScreen from '../Containers/Profie/ProfileScreen'
 
 // styes
 import Images from '../Images'
+const { IcHome, IcDisc, IcBuy, IcProfile } = Images
 import { apply } from '../Themes/OsmiProvider'
 
 
@@ -34,7 +35,7 @@ const BottomNavigator = () => (
           component={HomeScreen} 
           options={{
             tabBarIcon: (props) => (
-                <Image source={Images.icHome} style={apply("w-20 h-20 mt-2")}/>
+                <IcHome/>
             )
           }}/>
         <TabNavigator.Screen 
@@ -42,7 +43,7 @@ const BottomNavigator = () => (
           component={DiscountScreen} 
           options={{
             tabBarIcon: (props) => (
-                <Image source={Images.icDisc} style={apply("w-20 h-20 mt-2")}/>
+                <IcDisc/>
             )
           }}/>
         <TabNavigator.Screen 
@@ -50,7 +51,7 @@ const BottomNavigator = () => (
           component={KeranjangScreen} 
           options={{
             tabBarIcon: (props) => (
-                <Image source={Images.icBuy} style={apply("w-20 h-20 mt-2")}/>
+                <IcBuy/>
             )
           }}/>
         <TabNavigator.Screen 
@@ -58,7 +59,7 @@ const BottomNavigator = () => (
           component={ProfileScreen} 
           options={{
             tabBarIcon: (props) => (
-                <Image source={Images.icProfile} style={apply("w-20 h-20 mt-2")}/>
+                <IcProfile/>
             )
           }}/>      
     </TabNavigator.Navigator>

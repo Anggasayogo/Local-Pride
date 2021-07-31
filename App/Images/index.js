@@ -8,6 +8,7 @@ import IcCategory from './icons/Category.svg'
 import IcBell from './icons/Notification.svg'
 import IcSearch from './icons/Search.svg'
 import IcFilter from './icons/Filter.svg'
+import IcArrowLeft from './icons/ArrowLeft.svg'
 
 const Images = {
   // Boootom nav icons
@@ -20,6 +21,7 @@ const Images = {
   IcBell,
   IcFilter,
   IcSearch,
+  IcArrowLeft,
 
   // Ilustration
   ilJordan: require('./jordan.png'),

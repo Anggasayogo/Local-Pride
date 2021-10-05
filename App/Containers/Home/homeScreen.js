@@ -36,26 +36,31 @@ const homeScreen = (props) => {
       name: "Sepatu Koboy",
       price: "$99",
       image: sepatu1,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fugit vel officia iusto quo, quaerat aperiam facere eveniet sunt delectus inventore. Dolorum, voluptas beatae vitae totam quam doloribus vero voluptatem.",
     },
     {
       name: "Sepatu Koboy 2",
       price: "$69",
       image: sepatu2,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fugit vel officia iusto quo, quaerat aperiam facere eveniet sunt delectus inventore. Dolorum, voluptas beatae vitae totam quam doloribus vero voluptatem.",
     },
     {
       name: "Sepatu Safety",
       price: "$299",
       image: sepatu3,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fugit vel officia iusto quo, quaerat aperiam facere eveniet sunt delectus inventore. Dolorum, voluptas beatae vitae totam quam doloribus vero voluptatem.",
     },
     {
       name: "Sepatu Kuda",
       price: "$100",
       image: sepatu4,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fugit vel officia iusto quo, quaerat aperiam facere eveniet sunt delectus inventore. Dolorum, voluptas beatae vitae totam quam doloribus vero voluptatem.",
     },
     {
       name: "Sepatu Koboy 3",
       price: "$98",
       image: sepatu1,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fugit vel officia iusto quo, quaerat aperiam facere eveniet sunt delectus inventore. Dolorum, voluptas beatae vitae totam quam doloribus vero voluptatem.",
     },
   ];
   const category = ["Nike", "Adidas", "Vans", "Fuma", "FYC", "Vatrobas"];
@@ -138,7 +143,7 @@ const homeScreen = (props) => {
             />
           )}
           horizontal={false}
-          numColumns={2}
+          numColumns={3}
           showsVerticalScrollIndicator={false}
         />
       </View>

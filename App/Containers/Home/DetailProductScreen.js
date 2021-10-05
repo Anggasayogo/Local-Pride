@@ -15,6 +15,7 @@ import { apply } from '../../Themes/OsmiProvider'
 import Button from '../../Components/Button'
 
 const DetailProductScreen = props => {
+  const {item} = props.route.params
   return (
     <ScrollView showsVerticalScrollIndicator={false} style={styles.container}>
       <View style={apply("mt-3 px-3")}>
@@ -22,21 +23,21 @@ const DetailProductScreen = props => {
       </View>
       <View style={apply("mt-4 px-4")}>
         <Text style={apply("text-13 font-light")}>Men Shoe’s</Text>
-        <Text style={apply("text-20 font-bold")}>Nike Air Jordan X</Text>
+        <Text style={apply("text-20 font-bold")}>{item.name}</Text>
         <Text style={apply("text-14 font-regular")}>4,9 (130 Reviews)</Text>
       </View>
       <View style={apply("items-center justify-center -mt-35")}>
-        <Image source={Images.ilJordan} resizeMode="contain" style={apply("w-250 h-250")}/>
+        <Image source={item.image} style={[apply("w-250 h-250"), {marginTop: '10%'}]}/>
       </View>
       <View style={apply("self-end -mt-120 px-4 mb-5")}>
           <Button style={apply("w-48 h-40 b-10 border border-gray-500 my-1 items-center justify-center")}>
-            <Image source={Images.ilJordan} style={apply("w-48 h-40")}/>
+            <Image source={item.image} style={apply("w-48 h-40")}/>
           </Button>
           <Button style={apply("w-48 h-40 b-10 border border-red-400 my-1 items-center justify-center")}>
-            <Image source={Images.ilJordan} style={apply("w-48 h-40")}/>
+            <Image source={item.image} style={apply("w-48 h-40")}/>
           </Button>
           <Button style={apply("w-48 h-40 b-10 border border-gray-500 my-1 items-center justify-center")}>
-            <Image source={Images.ilJordan} style={apply("w-48 h-40")}/>
+            <Image source={item.image} style={apply("w-48 h-40")}/>
           </Button>
       </View>
       <View style={apply("flex bg-white shadow border-top-right-radius-40 border-top-left-radius-40 p-5")}>

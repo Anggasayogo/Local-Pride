@@ -15,11 +15,13 @@ const CardComponents = (props) => {
       <View style={apply("items-end")}>
         <IcBokmark />
       </View>
-      <Image
-        source={props.image}
-        style={apply("w-130 h-130 -mt-30")}
-        resizeMode="cover"
-      />
+      <View style={styles.imagesContainer}>
+        <Image
+          source={props.image}
+          style={apply("w-100 h-100")}
+          resizeMode="cover"
+        />
+      </View>
       <Text style={apply("font-medium")}>{props.name}</Text>
       <Text style={apply("font-regular text-13")}>
         {props.price}

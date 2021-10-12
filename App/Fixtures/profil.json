@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "https://img.icons8.com/color/48/000000/transaction.png",
+            "title": "Order"
+        },
+        {
+            "id": 2,
+            "image": "https://img.icons8.com/color/48/000000/wish-list.png",
+            "title": "Wish List"
+        },
+        {
+            "id": 3,
+            "image": "https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-logout-social-media-basic-1-sbts2018-flat-sbts2018.png",
+            "title": "Logout"
+        }
+    ]
+}
